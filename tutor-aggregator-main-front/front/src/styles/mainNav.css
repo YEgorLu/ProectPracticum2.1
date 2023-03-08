@@ -1,0 +1,23 @@
+aside{
+    border: 2px solid black;
+    border-radius: 20px;
+    padding: 15px 25px;
+}
+
+aside {
+    font-size: .7em;
+}
+
+aside h2{
+    color: #313a8e;
+    margin-bottom: 30px;
+    text-align: center;
+}
+
+.nav-item{
+    margin-bottom: 30px;
+}
+
+.nav-item:last-child{
+    margin-bottom: 0;
+}

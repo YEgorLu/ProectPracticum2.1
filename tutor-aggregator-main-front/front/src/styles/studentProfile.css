@@ -1,0 +1,116 @@
+.profile__main {
+    display: grid;
+    padding: 0 2.5vw;
+    gap: 30px;
+    grid-template-columns: 200px 1fr 250px;
+    align-items: flex-start;
+    background: linear-gradient(#fff, #e8e9e9);
+    grid-template-areas: "side main ";
+}
+
+.profile__side-menu {
+    grid-area: side;
+    border: none;
+    padding: 10%;
+}
+
+.profile__side-menu_list {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+}
+
+.profile__side-menu_item {
+    background: #e94d73;
+    padding: 15px 0;
+    border-radius: 20px;
+    font-size: 16px;
+    text-align: center;
+    margin-bottom: 30px;
+}
+
+.profile__side-menu_item a{
+    color: #fff;
+    text-decoration: none;
+    width: 100%;
+    height: 100%;
+    display: inline-block;
+}
+
+.profile__side-menu_item:last-child {
+    margin-bottom: 0;
+}
+
+.profile__info {
+    grid-area: main;
+    margin-bottom: 100px;
+}
+
+.profile__main-info {
+    display: flex;
+    justify-content: flex-start;
+}
+
+.profile__main-info_data{
+    margin-left: 50px;
+    display: flex;
+    flex-flow: column;
+}
+
+.profile__main-info_data > * {
+    margin-bottom: 20px;
+}
+
+.profile__user-photo {
+    grid-area: photo;
+    width: 200px;
+    height: 200px;
+}
+
+.profile__fio {
+    grid-area: fio;
+}
+
+.profile__city {
+    grid-area: city;
+    font-style: normal;
+    font-weight: normal;
+}
+
+.profile__age {
+    grid-area: age;
+    font-style: normal;
+    font-weight: normal;
+}
+
+.profile__sex {
+    grid-area: sex;
+    font-style: normal;
+    font-weight: normal;
+}
+
+.profile__about h2 {
+    margin-bottom: 10px;
+}
+
+.profile__about p {
+    font-size: 14px;
+}
+
+.profile__schedule {
+
+}
+
+.profile__main section{
+    margin-bottom: 100px;
+}
+
+.profile__main h2{
+    margin-bottom: 15px;
+    font-size: 32px;
+}
+
+.profile__main p{
+    font-size: 14px;
+}
+

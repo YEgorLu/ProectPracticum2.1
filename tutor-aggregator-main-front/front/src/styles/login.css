@@ -1,0 +1,83 @@
+.login__main{
+    background: #f6f6f6;
+}
+
+#login-form{
+    background: #fff;
+    width: 40%;
+    max-width: 550px;
+    display: flex;
+    flex-direction: column;
+    position: absolute;
+    left: 50%;
+    top:50%;
+    transform: translate(-50%, -50%);
+
+    padding:  15px 40px 50px;
+
+    border: 1px solid black;
+    border-radius: 20px;
+}
+
+.login__logo,
+.login__main input,
+.login__main select{
+    margin-bottom:  1.8rem;
+}
+
+.login__logo{
+    display: flex;
+    align-items: center;
+}
+
+.login__logo p{
+    font-family: "Myraid Pro", sans-serif;
+    font-weight: normal;
+    text-transform: uppercase;
+    color: #e94d73;
+    font-size: 48px;
+    margin-left: 20px;
+}
+
+.login__main input{
+    padding: 15px 10px;
+    border-radius: 10px;
+    border: 1px solid black;
+}
+
+.login__main input::placeholder{
+    position: absolute;
+    top: .3rem;
+    left: .3rem;
+}
+
+.login__main select{
+    border-radius: 5px;
+    width: 20%;
+    min-width: 100px;
+}
+
+.login__buttons{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.login__main button[type=submit]{
+    background: #e94d73;
+    width: 30%;
+    border: 1px solid black;
+    padding: 10px 15px;
+    border-radius: 10px;
+    color: #fff;
+}
+
+.login__switch{
+    cursor: pointer;
+    color: #a8a8a8;
+    text-decoration: underline;
+}
+
+.login__switch:hover{
+    color: #e94d73;
+}

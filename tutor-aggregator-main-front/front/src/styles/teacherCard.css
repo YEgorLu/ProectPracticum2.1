@@ -1,0 +1,69 @@
+.teacher-card{
+    border: 2px solid black;
+    border-radius: 20px;
+    padding: 20px;
+    display: grid;
+    gap: 5px;
+    margin-bottom: 30px;
+    grid-template-columns: 100px 1fr 200px;
+    grid-template-areas:
+                        "img name address"
+                        "img skills address"
+                        "img skills address"
+                        "stars skills address"
+                        "feedback skells address"
+                        "about about enroll";
+}
+
+.teacher-card p {
+    font-size: .7em;
+}
+
+.teacher-card img{
+    grid-area: img;
+    width: 80px;
+    height: auto;
+}
+
+.teacher-card h2{
+    grid-area: name;
+    color: #313a8e;
+    font-size: 1.2em;
+}
+
+.teacher-card .teacher-skills{
+    grid-area: skills;
+}
+
+.teacher-card .teacher-address{
+    grid-area: address;
+    color: #313a8e;
+    font-style: normal;
+}
+
+.teacher-card .stars{
+    width: 80px;
+    height: 15px;
+    background: url('../img/emptyStar.png') repeat-x;
+    background-size: contain;
+    grid-area: stars;
+}
+
+.teacher-card .feedback{
+    grid-area: feedback;
+}
+
+.teacher-card .about{
+    grid-area: about;
+}
+
+.teacher-card .enroll{
+    grid-area: enroll;
+    background: #e94d73;
+    padding: 10px 25px;
+    justify-self: flex-start;
+    border-radius: 10px;
+    text-decoration: none;
+    color: #fff;
+    height: 40px;
+}

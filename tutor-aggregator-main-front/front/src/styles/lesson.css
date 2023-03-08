@@ -1,0 +1,51 @@
+.lesson{
+    display: flex;
+    flex-flow: column;
+    #align-items: center;
+    justify-content: center;
+}
+
+.lesson > *{
+    margin-bottom: 5px;
+}
+
+.lesson > *:last-child{
+    margin-bottom: 0;
+}
+
+.lesson label{
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+}
+
+.lesson label.edit{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.lesson select[multiple]{
+    width: max-content;
+    padding: 5px;
+}
+
+.lesson__templates{
+    overflow-y: hidden;
+    height: fit-content;
+}
+
+.lesson__save{
+    align-self: flex-end;
+}
+
+.lesson{
+    border: black solid 2px;
+    border-radius: 20px;
+    padding: 20px;
+    background: white;
+}
+
+.lesson h5{
+    border-bottom: black solid 1px;
+}

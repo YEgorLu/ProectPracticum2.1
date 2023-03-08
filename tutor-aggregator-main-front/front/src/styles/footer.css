@@ -1,0 +1,39 @@
+/*--Footer-----------------------------------------------*/
+.footer__logo{
+    font-family: "Myraid Pro", sans-serif;
+    font-weight: normal;
+    text-transform: uppercase;
+    font-size: 48px;
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+
+.main-footer{
+    margin: 10vh 6vw;
+    font-size: 1.1em;
+}
+
+.main-footer h2{
+    font-size: 1.1em;
+    margin-bottom: 10px;
+}
+
+.footer__main-list{
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
+    list-style: none;
+}
+
+.footer__list{
+    list-style: none;
+}
+
+.footer__item{
+    margin-bottom: 10px;
+}
+
+.footer__list a{
+    text-decoration: none;
+    color: #000;
+}

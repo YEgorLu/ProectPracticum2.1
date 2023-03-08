@@ -1,0 +1,10 @@
+.pag{
+    grid-column: 2;
+    margin-bottom: 200px;
+}
+
+.pag-list{
+    list-style: none;
+    display: flex;
+    justify-content: center;
+}

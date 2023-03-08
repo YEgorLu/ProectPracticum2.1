@@ -1,0 +1,23 @@
+.comment-create {
+    display: grid;
+    gap: 20px;
+    grid-template-columns: 5fr 1fr;
+}
+
+.comment-create__fields{
+    display: flex;
+    flex-flow: column;
+}
+
+.comment-create__text_label{
+    display: flex;
+    flex-flow: column;
+}
+
+.comment-create__text{
+    height: 5rem;
+}
+
+.comment-create__save{
+    align-self: self-end;
+}

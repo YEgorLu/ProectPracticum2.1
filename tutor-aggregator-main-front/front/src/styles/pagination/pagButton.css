@@ -1,0 +1,25 @@
+.pag-item{
+    margin-right: 10px;
+    background: #313a8e;
+    color: #fff;
+    display: flex;
+    width: 30px;
+    height: 30px;
+    align-items: center;
+    border-radius: 5px;
+    justify-content: center;
+    cursor: pointer;
+}
+
+.pag-item a{
+    text-decoration: none;
+    color: #fff;
+}
+
+.pag-item.active{
+    background: #9198d9;
+}
+
+.pag-item:not(.active):hover{
+    background: #3f4794;
+}

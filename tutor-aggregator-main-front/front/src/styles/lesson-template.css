@@ -1,0 +1,38 @@
+.lesson-template{
+    border: black solid 2px;
+    padding: 20px;
+    display: flex;
+    flex-flow: column;
+    background: white;
+}
+
+.lesson-template > *{
+    margin-bottom: 5px;
+}
+
+.lesson-template > *:last-child{
+    margin-bottom: 0;
+}
+
+.lesson-template .lesson-template__name{
+    border-bottom: black solid 1px;
+    font-weight: bold;
+    font-size: large;
+}
+
+.lesson-template__price{
+
+}
+
+.lesson-template__desc{
+
+}
+
+.lesson-template__buttons{
+    display: flex;
+    justify-content: flex-end;
+}
+
+.lesson-template__buttons >:last-child{
+    margin-left: 10px;
+}

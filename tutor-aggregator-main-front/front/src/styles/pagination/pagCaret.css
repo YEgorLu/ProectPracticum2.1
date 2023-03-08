@@ -1,0 +1,19 @@
+.pag-item:first-child{
+    margin-right: 20px;
+}
+
+.pag-item:first-child svg{
+    transform: scale(2);
+}
+
+.pag-item:last-child{
+    margin-right: 0;
+}
+
+.pag-item:last-child svg{
+    transform: scale(2);
+}
+
+.pag-item:nth-last-child(2) {
+    margin-right: 20px;
+}
